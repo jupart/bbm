@@ -1,6 +1,6 @@
 # BBM Hardware
 
-Hardware for an amplifier based off a classic amp.
+Hardware for a guitar amp based off a classic that was all about the bass, man!
 
 ## Topology
 
