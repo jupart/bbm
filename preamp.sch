@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 7874 5906
 encoding utf-8
 Sheet 2 5
 Title ""
@@ -13,8 +13,163 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 3350 4150 0    50   Input ~ 0
+Text HLabel 1350 2550 0    50   Input ~ 0
 PreampInput
-Text HLabel 3550 4550 0    50   Input ~ 0
-250VDC
+Text HLabel 2100 2200 1    50   Input ~ 0
+250VDC_A
+$Comp
+L main:R_1.5k_TH_500mW_350V_5% R?
+U 1 1 5F1DB51B
+P 1700 3150
+F 0 "R?" V 1662 3205 40  0000 L CNN
+F 1 "R_1.5k_TH_500mW_350V_5%" H 1715 3065 40  0001 L CNN
+F 2 "main:R_TH" H 1700 3450 59  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 1700 3450 59  0001 C CNN
+F 4 "RC1/2152JB " H 1700 3150 59  0001 C CNN "MPN"
+F 5 "Kamaya" H 1700 3150 59  0001 C CNN "MF"
+F 6 "1.5k" V 1738 3205 40  0000 L CNN "Resistance"
+	1    1700 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L main:Tube_12AX7 Q?
+U 1 1 5F1DE9BC
+P 1800 2550
+F 0 "Q?" H 1725 2917 50  0000 C CNN
+F 1 "Tube_12AX7" H 1725 2826 50  0000 C CNN
+F 2 "" H 2000 2550 50  0001 C CNN
+F 3 "" H 2000 2550 50  0001 C CNN
+	1    1800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L main:Tube_12AX7 Q?
+U 2 1 5F1E03B3
+P 5600 2550
+F 0 "Q?" H 5675 2917 50  0000 C CNN
+F 1 "Tube_12AX7" H 5675 2826 50  0000 C CNN
+F 2 "" H 5800 2550 50  0001 C CNN
+F 3 "" H 5800 2550 50  0001 C CNN
+	2    5600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L main:Tube_12AX7 Q?
+U 3 1 5F1E1109
+P 950 4950
+F 0 "Q?" H 1630 5011 50  0000 L CNN
+F 1 "Tube_12AX7" H 1630 4920 50  0000 L CNN
+F 2 "" H 1150 4950 50  0001 C CNN
+F 3 "" H 1150 4950 50  0001 C CNN
+	3    950  4950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 800  4850
+NoConn ~ 800  4950
+NoConn ~ 800  5050
+Wire Wire Line
+	1700 3000 1700 2900
+Wire Wire Line
+	1350 2550 1450 2550
+Wire Wire Line
+	2000 2450 2100 2450
+Wire Wire Line
+	2100 2450 2100 2200
+Text HLabel 6000 2200 1    50   Input ~ 0
+250VDC_B
+Wire Wire Line
+	5900 2450 6000 2450
+Wire Wire Line
+	6000 2450 6000 2200
+$Comp
+L main:R_1.5k_TH_500mW_350V_5% R?
+U 1 1 5F1E6A61
+P 5700 3150
+F 0 "R?" V 5662 3205 40  0000 L CNN
+F 1 "R_1.5k_TH_500mW_350V_5%" H 5715 3065 40  0001 L CNN
+F 2 "main:R_TH" H 5700 3450 59  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 5700 3450 59  0001 C CNN
+F 4 "RC1/2152JB " H 5700 3150 59  0001 C CNN "MPN"
+F 5 "Kamaya" H 5700 3150 59  0001 C CNN "MF"
+F 6 "1.5k" V 5738 3205 40  0000 L CNN "Resistance"
+	1    5700 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3000 5700 2900
+$Comp
+L main:GND #PWR?
+U 1 1 5F1E6D9C
+P 1700 3400
+F 0 "#PWR?" H 1700 3150 50  0001 C CNN
+F 1 "GND" H 1705 3227 50  0000 C CNN
+F 2 "" H 1700 3400 60  0000 C CNN
+F 3 "" H 1700 3400 60  0000 C CNN
+	1    1700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3300 1700 3400
+$Comp
+L main:GND #PWR?
+U 1 1 5F1E7891
+P 5700 3400
+F 0 "#PWR?" H 5700 3150 50  0001 C CNN
+F 1 "GND" H 5705 3227 50  0000 C CNN
+F 2 "" H 5700 3400 60  0000 C CNN
+F 3 "" H 5700 3400 60  0000 C CNN
+	1    5700 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3300 5700 3400
+$Comp
+L main:R_220k_TH_500mW_350V_10% R?
+U 1 1 5F1EFFC7
+P 6250 2450
+F 0 "R?" H 6250 2619 40  0000 C CNN
+F 1 "R_220k_TH_500mW_350V_10%" H 6265 2365 40  0001 L CNN
+F 2 "main:R_TH" H 6250 2750 59  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 6250 2750 59  0001 C CNN
+F 4 "RC1/2224KTB" H 6250 2450 59  0001 C CNN "MPN"
+F 5 "Kamaya" H 6250 2450 59  0001 C CNN "MF"
+F 6 "220k" H 6250 2543 40  0000 C CNN "Resistance"
+	1    6250 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2450 6000 2450
+Connection ~ 6000 2450
+$Comp
+L main:R_100k_TH_500mW_350V_10% R?
+U 1 1 5F1F1354
+P 2250 2700
+F 0 "R?" V 2212 2755 40  0000 L CNN
+F 1 "R_100k_TH_500mW_350V_10%" H 2265 2615 40  0001 L CNN
+F 2 "main:R_TH" H 2250 3000 59  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 2250 3000 59  0001 C CNN
+F 4 "RC1/2104KTD " H 2250 2700 59  0001 C CNN "MPN"
+F 5 "Kamaya" H 2250 2700 59  0001 C CNN "MF"
+F 6 "100k" V 2288 2755 40  0000 L CNN "Resistance"
+	1    2250 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 2550 2250 2450
+Wire Wire Line
+	2250 2450 2100 2450
+Connection ~ 2100 2450
+$Comp
+L main:Conn_01x02_2.54mm_Male_Lock J?
+U 1 1 5F1F4870
+P 3650 2900
+F 0 "J?" H 3733 3115 50  0000 C CNN
+F 1 "Conn_01x02_2.54mm_Male_Lock" H 3733 3024 50  0000 C CNN
+F 2 "main:Conn_01x02_2.54mm_Male_Lock" H 3650 2900 50  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/22-04-2041.pdf" H 3650 2900 50  0001 C CNN
+F 4 "Molex" H 3650 2900 50  0001 C CNN "MF"
+F 5 "22-04-2041" H 3650 2900 50  0001 C CNN "MPN"
+	1    3650 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

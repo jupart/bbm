@@ -19,7 +19,8 @@ U 5ED1E8AF
 F0 "Preamp" 50
 F1 "preamp.sch" 50
 F2 "PreampInput" I L 2850 3400 50 
-F3 "250VDC" I L 2850 3600 50 
+F3 "250VDC_A" I L 2850 3550 50 
+F4 "250VDC_B" I L 2850 3650 50 
 $EndSheet
 $Sheet
 S 5100 3050 1400 800 
@@ -28,7 +29,7 @@ F0 "Phase Inverter" 50
 F1 "phase_inverter.sch" 50
 $EndSheet
 $Sheet
-S 6950 5350 1750 1100
+S 1550 5550 1200 750 
 U 5ED1E8EE
 F0 "Power Supply" 50
 F1 "power_supply.sch" 50
@@ -202,21 +203,21 @@ Wire Notes Line
 $Comp
 L main:R_68k_TH_250mW_350V_5% R?
 U 1 1 5F1C566E
-P 2400 3400
-F 0 "R?" H 2400 3569 40  0000 C CNN
-F 1 "R_68k_TH_250mW_350V_5%" H 2415 3315 40  0001 L CNN
-F 2 "main:R_TH" H 2400 3700 59  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 2400 3700 59  0001 C CNN
-F 4 "RC1/2683JB " H 2400 3400 59  0001 C CNN "MPN"
-F 5 "Kamaya" H 2400 3400 59  0001 C CNN "MF"
-F 6 "68k" H 2400 3493 40  0000 C CNN "Resistance"
-	1    2400 3400
+P 2500 3400
+F 0 "R?" H 2500 3569 40  0000 C CNN
+F 1 "R_68k_TH_250mW_350V_5%" H 2515 3315 40  0001 L CNN
+F 2 "main:R_TH" H 2500 3700 59  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 2500 3700 59  0001 C CNN
+F 4 "RC1/2683JB " H 2500 3400 59  0001 C CNN "MPN"
+F 5 "Kamaya" H 2500 3400 59  0001 C CNN "MF"
+F 6 "68k" H 2500 3493 40  0000 C CNN "Resistance"
+	1    2500 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 3400 2200 3400
+	2350 3400 2200 3400
 Wire Wire Line
-	2550 3400 2850 3400
+	2650 3400 2850 3400
 $Comp
 L main:R_1M_TH_500mW_350V_10% R?
 U 1 1 5F1C66F5
@@ -248,4 +249,42 @@ F 3 "" H 2250 3900 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2250 3900 2250 3850
+$Comp
+L main:R_100k_TH_500mW_350V_10% R?
+U 1 1 5F1F23D8
+P 2650 4700
+AR Path="/5ED1E8AF/5F1F23D8" Ref="R?"  Part="1" 
+AR Path="/5F1F23D8" Ref="R?"  Part="1" 
+F 0 "R?" V 2612 4646 40  0000 R CNN
+F 1 "R_100k_TH_500mW_350V_10%" H 2665 4615 40  0001 L CNN
+F 2 "main:R_TH" H 2650 5000 59  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 2650 5000 59  0001 C CNN
+F 4 "RC1/2104KTD " H 2650 4700 59  0001 C CNN "MPN"
+F 5 "Kamaya" H 2650 4700 59  0001 C CNN "MF"
+F 6 "100k" V 2688 4646 40  0000 R CNN "Resistance"
+	1    2650 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L main:R_100k_TH_500mW_350V_10% R?
+U 1 1 5F1F28B6
+P 2750 4700
+F 0 "R?" V 2712 4755 40  0000 L CNN
+F 1 "R_100k_TH_500mW_350V_10%" H 2765 4615 40  0001 L CNN
+F 2 "main:R_TH" H 2750 5000 59  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 2750 5000 59  0001 C CNN
+F 4 "RC1/2104KTD " H 2750 4700 59  0001 C CNN "MPN"
+F 5 "Kamaya" H 2750 4700 59  0001 C CNN "MF"
+F 6 "100k" V 2788 4755 40  0000 L CNN "Resistance"
+	1    2750 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 4550 2750 3650
+Wire Wire Line
+	2750 3650 2850 3650
+Wire Wire Line
+	2650 4550 2650 3550
+Wire Wire Line
+	2650 3550 2850 3550
 $EndSCHEMATC
