@@ -21,6 +21,7 @@ F1 "preamp.sch" 50
 F2 "PreampInput" I L 2850 3400 50 
 F3 "250VDC_A" I L 2850 3550 50 
 F4 "250VDC_B" I L 2850 3650 50 
+F5 "PreampOut" O R 3800 3500 50 
 $EndSheet
 $Sheet
 S 5100 3050 1400 800 
