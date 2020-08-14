@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 1400 2050 0    50   Input ~ 0
-PreampInput
+INPUT
 Text HLabel 2150 1700 1    50   Input ~ 0
 250VDC_A
 $Comp
@@ -417,7 +417,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 3300 5600 3300
 Text HLabel 6700 3200 2    50   Output ~ 0
-PreampOut
+OUT
 Wire Wire Line
 	6700 3200 6600 3200
 Text Notes 1800 2500 0    50   ~ 0
