@@ -17,3 +17,15 @@ Hardware for a guitar amp based off a classic that was all about the bass, man!
 - orange drop caps
 - carbon comp signal resistors
 - metal-film power resistors
+
+## Tonestack Curves
+
+The following images were created using [Duncan's Tonestack Calculator](http://www.duncanamps.com/tsc/download.html). 
+
+![B0T0](img/bassman_tonestack_b0t0.png)
+![B0T5](img/bassman_tonestack_b0t5.png)
+![B5T0](img/bassman_tonestack_b5t0.png)
+![B5T5](img/bassman_tonestack_b5t5.png)
+![B10T0](img/bassman_tonestack_b10t0.png)
+![B10T5](img/bassman_tonestack_b10t5.png)
+![B10T10](img/bassman_tonestack_b10t10.png)
