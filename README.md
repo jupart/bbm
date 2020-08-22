@@ -14,7 +14,6 @@ Hardware for a guitar amp based off a classic that was all about the bass, man!
 - PCB build
 - hard-wired heaters for tubes
 - headers from PCB to chassis-mounted components
-- orange drop caps
 - carbon comp signal resistors
 - metal-film power resistors
 
