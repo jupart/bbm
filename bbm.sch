@@ -61,31 +61,31 @@ $EndSheet
 $Comp
 L main:Conn_01x02_2.54mm_Male_Lock J?
 U 1 1 5F1B6292
-P 2800 3350
-F 0 "J?" H 2883 3473 50  0000 C CNN
-F 1 "Conn_01x02_2.54mm_Male_Lock" H 2883 3474 50  0001 C CNN
-F 2 "main:Conn_01x02_2.54mm_Male_Lock" H 2800 3350 50  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/22-04-2041.pdf" H 2800 3350 50  0001 C CNN
-F 4 "Molex" H 2800 3350 50  0001 C CNN "MF"
-F 5 "22-04-2041" H 2800 3350 50  0001 C CNN "MPN"
-	1    2800 3350
+P 2650 3350
+F 0 "J?" H 2733 3473 50  0000 C CNN
+F 1 "Conn_01x02_2.54mm_Male_Lock" H 2733 3474 50  0001 C CNN
+F 2 "main:Conn_01x02_2.54mm_Male_Lock" H 2650 3350 50  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/22-04-2041.pdf" H 2650 3350 50  0001 C CNN
+F 4 "Molex" H 2650 3350 50  0001 C CNN "MF"
+F 5 "22-04-2041" H 2650 3350 50  0001 C CNN "MPN"
+	1    2650 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L main:Switchcraft-12A J?
 U 1 1 5F1B709B
-P 2200 3400
-F 0 "J?" H 2183 3675 50  0000 C CNN
-F 1 "Switchcraft-12A" H 2183 3584 50  0000 C CNN
-F 2 "" H 2200 3400 50  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/12A.pdf" H 2200 3400 50  0001 C CNN
-F 4 "Switchcraft" H 2200 3400 50  0001 C CNN "MF"
-F 5 "12A" H 2200 3400 50  0001 C CNN "MPN"
-	1    2200 3400
+P 2050 3400
+F 0 "J?" H 2033 3675 50  0000 C CNN
+F 1 "Switchcraft-12A" H 2033 3584 50  0000 C CNN
+F 2 "" H 2050 3400 50  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/12A.pdf" H 2050 3400 50  0001 C CNN
+F 4 "Switchcraft" H 2050 3400 50  0001 C CNN "MF"
+F 5 "12A" H 2050 3400 50  0001 C CNN "MPN"
+	1    2050 3400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2300 3350
-NoConn ~ 2300 3450
+NoConn ~ 2150 3350
+NoConn ~ 2150 3450
 $Comp
 L main:Switchcraft-12A J?
 U 1 1 5F1B79AE
@@ -202,71 +202,49 @@ Wire Notes Line
 	8700 4150 8700 4350
 Wire Notes Line
 	8700 4350 10200 4350
-Text Notes 1950 2950 0    79   ~ 16
+Text Notes 1800 2950 0    79   ~ 16
 Input Jack
 Wire Notes Line
-	2350 3350 2700 3350
+	2200 3350 2550 3350
 Wire Notes Line
-	2700 3450 2350 3450
+	2550 3450 2200 3450
 Wire Notes Line
-	2800 3250 2800 3000
+	2650 3250 2650 3000
 Wire Notes Line
-	2800 3000 1750 3000
+	2650 3000 1600 3000
 Wire Notes Line
-	1750 3000 1750 3700
+	1600 3000 1600 3700
 Wire Notes Line
-	1750 3700 2800 3700
+	1600 3700 2650 3700
 Wire Notes Line
-	2800 3700 2800 3550
-$Comp
-L main:R_68k_TH_250mW_350V_5% R?
-U 1 1 5F1C566E
-P 3300 3350
-F 0 "R?" H 3300 3519 40  0000 C CNN
-F 1 "R_68k_TH_250mW_350V_5%" H 3315 3265 40  0001 L CNN
-F 2 "main:R_TH" H 3300 3650 59  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 3300 3650 59  0001 C CNN
-F 4 "RC1/2683JB " H 3300 3350 59  0001 C CNN "MPN"
-F 5 "Kamaya" H 3300 3350 59  0001 C CNN "MF"
-F 6 "68k" H 3300 3443 40  0000 C CNN "Resistance"
-	1    3300 3350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3150 3350 3000 3350
-Wire Wire Line
-	3450 3350 3650 3350
+	2650 3700 2650 3550
 $Comp
 L main:R_1M_TH_500mW_350V_10% R?
 U 1 1 5F1C66F5
-P 3050 3650
-F 0 "R?" V 3012 3705 40  0000 L CNN
-F 1 "R_1M_TH_500mW_350V_10%" H 3065 3565 40  0001 L CNN
-F 2 "main:R_TH" H 3050 3950 59  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 3050 3950 59  0001 C CNN
-F 4 "RC1/2105KTB " H 3050 3650 59  0001 C CNN "MPN"
-F 5 "Kamaya" H 3050 3650 59  0001 C CNN "MF"
-F 6 "1M" V 3088 3705 40  0000 L CNN "Resistance"
-	1    3050 3650
+P 3150 3600
+F 0 "R?" V 3112 3655 40  0000 L CNN
+F 1 "R_1M_TH_500mW_350V_10%" H 3165 3515 40  0001 L CNN
+F 2 "main:R_TH" H 3150 3900 59  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 3150 3900 59  0001 C CNN
+F 4 "RC1/2105KTB " H 3150 3600 59  0001 C CNN "MPN"
+F 5 "Kamaya" H 3150 3600 59  0001 C CNN "MF"
+F 6 "1M" V 3188 3655 40  0000 L CNN "Resistance"
+	1    3150 3600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3050 3500 3050 3450
-Wire Wire Line
-	3050 3450 3000 3450
 $Comp
 L main:GND #PWR?
 U 1 1 5F1C91A1
-P 3050 3850
-F 0 "#PWR?" H 3050 3600 50  0001 C CNN
-F 1 "GND" H 3055 3677 50  0000 C CNN
-F 2 "" H 3050 3850 60  0000 C CNN
-F 3 "" H 3050 3850 60  0000 C CNN
-	1    3050 3850
+P 3150 3950
+F 0 "#PWR?" H 3150 3700 50  0001 C CNN
+F 1 "GND" H 3155 3777 50  0000 C CNN
+F 2 "" H 3150 3950 60  0000 C CNN
+F 3 "" H 3150 3950 60  0000 C CNN
+	1    3150 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3050 3850 3050 3800
+	3150 3950 3150 3850
 Wire Wire Line
 	3550 4500 3550 3600
 Wire Wire Line
@@ -367,4 +345,20 @@ Wire Wire Line
 	6400 6150 6400 4000
 Wire Wire Line
 	6400 4000 6600 4000
+Wire Wire Line
+	2850 3350 3150 3350
+Wire Wire Line
+	3150 3350 3150 3450
+Connection ~ 3150 3350
+Wire Wire Line
+	3150 3350 3650 3350
+Wire Wire Line
+	2850 3450 2950 3450
+Wire Wire Line
+	2950 3450 2950 3850
+Wire Wire Line
+	2950 3850 3150 3850
+Connection ~ 3150 3850
+Wire Wire Line
+	3150 3850 3150 3750
 $EndSCHEMATC
