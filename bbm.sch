@@ -52,11 +52,12 @@ F0 "Power Amp" 50
 F1 "power_amp.sch" 50
 F2 "INPUT+" I L 6600 3300 50 
 F3 "INPUT-" I L 6600 3400 50 
-F4 "16OHM_OUT" O R 8000 3950 50 
+F4 "16OHM_OUT" O R 8000 3700 50 
 F5 "8OHM_OUT" O R 8000 3600 50 
-F6 "4OHM_OUT" O R 8000 3250 50 
+F6 "4OHM_OUT" O R 8000 3500 50 
 F7 "420VDC" I L 6600 3850 50 
 F8 "-44VDC" I L 6600 4000 50 
+F9 "OUT_COMMON" O R 8000 4000 50 
 $EndSheet
 $Comp
 L main:Conn_01x02_2.54mm_Male_Lock J?
@@ -89,119 +90,16 @@ NoConn ~ 2150 3450
 $Comp
 L main:Switchcraft-12A J?
 U 1 1 5F1B79AE
-P 9300 3300
-F 0 "J?" H 9283 3575 50  0000 C CNN
-F 1 "Switchcraft-12A" H 9283 3484 50  0000 C CNN
-F 2 "" H 9300 3300 50  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/12A.pdf" H 9300 3300 50  0001 C CNN
-F 4 "Switchcraft" H 9300 3300 50  0001 C CNN "MF"
-F 5 "12A" H 9300 3300 50  0001 C CNN "MPN"
-	1    9300 3300
+P 9800 3650
+F 0 "J?" H 9783 3925 50  0000 C CNN
+F 1 "Switchcraft-12A" H 9783 3834 50  0000 C CNN
+F 2 "" H 9800 3650 50  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/12A.pdf" H 9800 3650 50  0001 C CNN
+F 4 "Switchcraft" H 9800 3650 50  0001 C CNN "MF"
+F 5 "12A" H 9800 3650 50  0001 C CNN "MPN"
+	1    9800 3650
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 9200 3250
-NoConn ~ 9200 3350
-$Comp
-L main:Switchcraft-12A J?
-U 1 1 5F1B8477
-P 9300 3650
-F 0 "J?" H 9122 3672 50  0000 R CNN
-F 1 "Switchcraft-12A" H 9283 3834 50  0001 C CNN
-F 2 "" H 9300 3650 50  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/12A.pdf" H 9300 3650 50  0001 C CNN
-F 4 "Switchcraft" H 9300 3650 50  0001 C CNN "MF"
-F 5 "12A" H 9300 3650 50  0001 C CNN "MPN"
-	1    9300 3650
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 9200 3600
-NoConn ~ 9200 3700
-$Comp
-L main:Switchcraft-12A J?
-U 1 1 5F1B86A8
-P 9300 4000
-F 0 "J?" H 9122 4022 50  0000 R CNN
-F 1 "Switchcraft-12A" H 9283 4184 50  0001 C CNN
-F 2 "" H 9300 4000 50  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/12A.pdf" H 9300 4000 50  0001 C CNN
-F 4 "Switchcraft" H 9300 4000 50  0001 C CNN "MF"
-F 5 "12A" H 9300 4000 50  0001 C CNN "MPN"
-	1    9300 4000
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 9200 3950
-NoConn ~ 9200 4050
-Text Notes 9700 3350 0    50   ~ 10
-4 ohm
-Text Notes 9700 3700 0    50   ~ 10
-8 ohm
-Text Notes 9700 4050 0    50   ~ 10
-16 ohm
-Text Notes 9200 4250 0    50   ~ 0
-Does OT support this?
-Text Notes 9100 2800 0    79   ~ 16
-Speaker Outs
-Wire Notes Line
-	10200 4350 10200 2850
-$Comp
-L main:Conn_01x02_2.54mm_Male_Lock J?
-U 1 1 5F1B9FCC
-P 8700 3250
-F 0 "J?" H 8783 3373 50  0000 C CNN
-F 1 "Conn_01x02_2.54mm_Male_Lock" H 8783 3374 50  0001 C CNN
-F 2 "main:Conn_01x02_2.54mm_Male_Lock" H 8700 3250 50  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/22-04-2041.pdf" H 8700 3250 50  0001 C CNN
-F 4 "Molex" H 8700 3250 50  0001 C CNN "MF"
-F 5 "22-04-2041" H 8700 3250 50  0001 C CNN "MPN"
-	1    8700 3250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L main:Conn_01x02_2.54mm_Male_Lock J?
-U 1 1 5F1B9FF5
-P 8700 3600
-F 0 "J?" H 8783 3723 50  0000 C CNN
-F 1 "Conn_01x02_2.54mm_Male_Lock" H 8783 3724 50  0001 C CNN
-F 2 "main:Conn_01x02_2.54mm_Male_Lock" H 8700 3600 50  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/22-04-2041.pdf" H 8700 3600 50  0001 C CNN
-F 4 "Molex" H 8700 3600 50  0001 C CNN "MF"
-F 5 "22-04-2041" H 8700 3600 50  0001 C CNN "MPN"
-	1    8700 3600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L main:Conn_01x02_2.54mm_Male_Lock J?
-U 1 1 5F1BA6BE
-P 8700 3950
-F 0 "J?" H 8783 4073 50  0000 C CNN
-F 1 "Conn_01x02_2.54mm_Male_Lock" H 8783 4074 50  0001 C CNN
-F 2 "main:Conn_01x02_2.54mm_Male_Lock" H 8700 3950 50  0001 C CNN
-F 3 "/home/jpartain/Hardware/datasheets/22-04-2041.pdf" H 8700 3950 50  0001 C CNN
-F 4 "Molex" H 8700 3950 50  0001 C CNN "MF"
-F 5 "22-04-2041" H 8700 3950 50  0001 C CNN "MPN"
-	1    8700 3950
-	-1   0    0    -1  
-$EndComp
-Wire Notes Line
-	9150 4050 8800 4050
-Wire Notes Line
-	9150 3950 8800 3950
-Wire Notes Line
-	9150 3700 8800 3700
-Wire Notes Line
-	9150 3600 8800 3600
-Wire Notes Line
-	9150 3350 8800 3350
-Wire Notes Line
-	9150 3250 8800 3250
-Wire Notes Line
-	8700 2850 8700 3150
-Wire Notes Line
-	8700 2850 10200 2850
-Wire Notes Line
-	8700 4150 8700 4350
-Wire Notes Line
-	8700 4350 10200 4350
 Text Notes 1800 2950 0    79   ~ 16
 Input Jack
 Wire Notes Line
@@ -253,37 +151,17 @@ Wire Wire Line
 	3450 4500 3450 3500
 Wire Wire Line
 	3450 3500 3650 3500
-Wire Wire Line
-	8000 3250 8500 3250
-Wire Wire Line
-	8500 3600 8000 3600
-Wire Wire Line
-	8000 3950 8500 3950
 $Comp
 L main:GND #PWR?
 U 1 1 5F37218C
-P 8400 4200
-F 0 "#PWR?" H 8400 3950 50  0001 C CNN
-F 1 "GND" H 8405 4027 50  0000 C CNN
-F 2 "" H 8400 4200 60  0000 C CNN
-F 3 "" H 8400 4200 60  0000 C CNN
-	1    8400 4200
+P 9300 4200
+F 0 "#PWR?" H 9300 3950 50  0001 C CNN
+F 1 "GND" H 9305 4027 50  0000 C CNN
+F 2 "" H 9300 4200 60  0000 C CNN
+F 3 "" H 9300 4200 60  0000 C CNN
+	1    9300 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 4200 8400 4050
-Wire Wire Line
-	8400 3350 8500 3350
-Wire Wire Line
-	8500 3700 8400 3700
-Connection ~ 8400 3700
-Wire Wire Line
-	8400 3700 8400 3350
-Wire Wire Line
-	8500 4050 8400 4050
-Connection ~ 8400 4050
-Wire Wire Line
-	8400 4050 8400 3700
 Wire Wire Line
 	6100 3300 6600 3300
 Wire Wire Line
@@ -328,11 +206,11 @@ F 6 "100k" V 3588 4705 40  0000 L CNN "Resistance"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5100 3600 4800 3600
+	5100 3600 4950 3600
 Wire Wire Line
-	4800 3600 4800 5850
+	4950 3600 4950 5850
 Wire Wire Line
-	4800 5850 3200 5850
+	4950 5850 3200 5850
 Wire Wire Line
 	6600 3850 6250 3850
 Wire Wire Line
@@ -361,4 +239,61 @@ Wire Wire Line
 Connection ~ 3150 3850
 Wire Wire Line
 	3150 3850 3150 3750
+Wire Wire Line
+	8450 3500 8000 3500
+Wire Wire Line
+	8000 3600 8450 3600
+Wire Wire Line
+	8450 3700 8000 3700
+Wire Wire Line
+	9700 3600 9300 3600
+Wire Wire Line
+	9300 3600 9300 2400
+Wire Wire Line
+	9300 2400 7200 2400
+Connection ~ 9300 3600
+Wire Wire Line
+	9300 3600 8850 3600
+Wire Wire Line
+	5100 3300 4950 3300
+Wire Wire Line
+	4950 3300 4950 2400
+Wire Wire Line
+	4950 2400 6900 2400
+$Comp
+L main:R_820_TH_500mW_350V_5% R?
+U 1 1 5F4E35F0
+P 7050 2400
+F 0 "R?" H 7050 2569 40  0000 C CNN
+F 1 "R_820_TH_500mW_350V_5%" H 7065 2315 40  0001 L CNN
+F 2 "main:R_TH" H 7050 2700 59  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 7050 2700 59  0001 C CNN
+F 4 "RC1/2821JB " H 7050 2400 59  0001 C CNN "MPN"
+F 5 "Kamaya" H 7050 2400 59  0001 C CNN "MF"
+F 6 "820" H 7050 2493 40  0000 C CNN "Resistance"
+	1    7050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4000 9300 4000
+Wire Wire Line
+	9300 4000 9300 3700
+Wire Wire Line
+	9300 3700 9700 3700
+Wire Wire Line
+	9300 4200 9300 4000
+Connection ~ 9300 4000
+$Comp
+L main:SW_SP3T_Panel_6A_120V U?
+U 1 1 5F4E9F5B
+P 8650 3600
+F 0 "U?" H 8650 3925 50  0000 C CNN
+F 1 "SW_SP3T_Panel_6A_120V" H 8650 3834 50  0000 C CNN
+F 2 "" H 8700 3450 50  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/switches_nkk_mseries_toggles.pdf" H 8700 3450 50  0001 C CNN
+F 4 "M2024BB1UW01" H 8650 3600 50  0001 C CNN "MPN"
+F 5 "NKK" H 8650 3600 50  0001 C CNN "MF"
+	1    8650 3600
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
