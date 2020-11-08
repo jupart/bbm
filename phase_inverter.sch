@@ -27,7 +27,7 @@ U 1 1 5F41FF3F
 P 4050 2000
 F 0 "Q?" H 3975 2367 50  0000 C CNN
 F 1 "Tube_12AT7" H 3975 2276 50  0000 C CNN
-F 2 "" H 4250 2000 50  0001 C CNN
+F 2 "main:Triode_Tube_Header" H 4250 2000 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/12AT7.pdf" H 4250 2000 50  0001 C CNN
 F 4 "Electroharmonix" H 4050 2000 50  0001 C CNN "MF"
 F 5 "12AT7" H 4050 2000 50  0001 C CNN "MPN"
@@ -40,7 +40,7 @@ U 2 1 5F420B0F
 P 3850 3200
 F 0 "Q?" H 3875 3567 50  0000 C CNN
 F 1 "Tube_12AT7" H 3875 3476 50  0000 C CNN
-F 2 "" H 4050 3200 50  0001 C CNN
+F 2 "main:Triode_Tube_Header" H 4050 3200 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/12AT7.pdf" H 4050 3200 50  0001 C CNN
 F 4 "Electroharmonix" H 3850 3200 50  0001 C CNN "MF"
 F 5 "12AT7" H 3850 3200 50  0001 C CNN "MPN"
@@ -53,7 +53,7 @@ U 3 1 5F421037
 P 850 5100
 F 0 "Q?" H 1530 5161 50  0000 L CNN
 F 1 "Tube_12AT7" H 1530 5070 50  0000 L CNN
-F 2 "" H 1050 5100 50  0001 C CNN
+F 2 "main:Triode_Tube_Header" H 1050 5100 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/12AT7.pdf" H 1050 5100 50  0001 C CNN
 F 4 "Electroharmonix" H 850 5100 50  0001 C CNN "MF"
 F 5 "12AT7" H 850 5100 50  0001 C CNN "MPN"
@@ -296,6 +296,37 @@ F 4 "RC1/2471JTD " H 3600 2600 59  0001 C CNN "MPN"
 F 5 "Walsin" H 3600 2600 59  0001 C CNN "MF"
 F 6 "470" H 3600 2693 40  0000 C CNN "Resistance"
 	1    3600 2600
+	1    0    0    -1  
+$EndComp
+Text Notes 6450 700  0    79   ~ 16
+Tube Header\n
+Wire Notes Line
+	6550 750  6550 1600
+Wire Notes Line
+	7100 1600 7100 750 
+Wire Notes Line
+	7100 750  6550 750 
+Wire Notes Line
+	7100 1600 6550 1600
+NoConn ~ 6950 950 
+NoConn ~ 6950 1050
+NoConn ~ 6950 1150
+NoConn ~ 6950 1250
+NoConn ~ 6950 1350
+NoConn ~ 6950 1450
+$Comp
+L main:Conn_01x06_2.54mm_Male_Lock J?
+U 1 1 5FB0DDB6
+P 6750 950
+AR Path="/5ED1E8AF/5FB0DDB6" Ref="J?"  Part="1" 
+AR Path="/5ED1E8CD/5FB0DDB6" Ref="J?"  Part="1" 
+F 0 "J?" H 6833 1073 50  0000 C CNN
+F 1 "Conn_01x06_2.54mm_Male_Lock" H 6833 1074 50  0001 C CNN
+F 2 "" H 6750 950 50  0001 C CNN
+F 3 "/home/jpartain/Hardware/datasheets/22-23-2037.pdf" H 6750 950 50  0001 C CNN
+F 4 "Molex" H 6750 950 50  0001 C CNN "MF"
+F 5 "22-23-6061" H 6750 950 50  0001 C CNN "MPN"
+	1    6750 950 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
