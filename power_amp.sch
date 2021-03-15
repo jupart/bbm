@@ -18,14 +18,14 @@ INPUT+
 Text HLabel 2750 3400 0    50   Input ~ 0
 INPUT-
 $Comp
-L main:R_220k_TH_500mW_350V_2% R?
+L personal:R_220k_TH_500mW_350V_2% R?
 U 1 1 5F4A9E7A
 P 2900 2600
 AR Path="/5ED1E8CD/5F4A9E7A" Ref="R?"  Part="1" 
 AR Path="/5ED1E901/5F4A9E7A" Ref="R?"  Part="1" 
 F 0 "R?" V 2862 2655 40  0000 L CNN
 F 1 "R_220k_TH_500mW_350V_2%" H 2915 2515 40  0001 L CNN
-F 2 "main:R_TH" H 2900 2900 59  0001 C CNN
+F 2 "personal:R_TH" H 2900 2900 59  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/resistors_yageo_th.pdf" H 2900 2900 59  0001 C CNN
 F 4 "CFR-50GT-52-220K " H 2900 2600 59  0001 C CNN "MPN"
 F 5 "Yageo" H 2900 2600 59  0001 C CNN "MF"
@@ -34,14 +34,14 @@ F 6 "220k" V 2938 2655 40  0000 L CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L main:R_220k_TH_500mW_350V_2% R?
+L personal:R_220k_TH_500mW_350V_2% R?
 U 1 1 5F4A9E83
 P 2900 3100
 AR Path="/5ED1E8CD/5F4A9E83" Ref="R?"  Part="1" 
 AR Path="/5ED1E901/5F4A9E83" Ref="R?"  Part="1" 
 F 0 "R?" V 2862 3155 40  0000 L CNN
 F 1 "R_220k_TH_500mW_350V_2%" H 2915 3015 40  0001 L CNN
-F 2 "main:R_TH" H 2900 3400 59  0001 C CNN
+F 2 "personal:R_TH" H 2900 3400 59  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/resistors_yageo_th.pdf" H 2900 3400 59  0001 C CNN
 F 4 "CFR-50GT-52-220K " H 2900 3100 59  0001 C CNN "MPN"
 F 5 "Yageo" H 2900 3100 59  0001 C CNN "MF"
@@ -50,14 +50,14 @@ F 6 "220k" V 2938 3155 40  0000 L CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L main:R_1.5k_TH_500mW_350V_5% R?
+L personal:R_1.5k_TH_500mW_350V_5% R?
 U 1 1 5F4A9E8C
 P 3200 2300
 AR Path="/5ED1E8CD/5F4A9E8C" Ref="R?"  Part="1" 
 AR Path="/5ED1E901/5F4A9E8C" Ref="R?"  Part="1" 
 F 0 "R?" H 3200 2469 40  0000 C CNN
 F 1 "R_1.5k_TH_500mW_350V_5%" H 3215 2215 40  0001 L CNN
-F 2 "main:R_TH" H 3200 2600 59  0001 C CNN
+F 2 "personal:R_TH" H 3200 2600 59  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 3200 2600 59  0001 C CNN
 F 4 "RC1/2152JB " H 3200 2300 59  0001 C CNN "MPN"
 F 5 "Kamaya" H 3200 2300 59  0001 C CNN "MF"
@@ -66,14 +66,14 @@ F 6 "1.5k" H 3200 2393 40  0000 C CNN "Resistance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main:R_1.5k_TH_500mW_350V_5% R?
+L personal:R_1.5k_TH_500mW_350V_5% R?
 U 1 1 5F4A9E95
 P 3200 3400
 AR Path="/5ED1E8CD/5F4A9E95" Ref="R?"  Part="1" 
 AR Path="/5ED1E901/5F4A9E95" Ref="R?"  Part="1" 
 F 0 "R?" H 3200 3569 40  0000 C CNN
 F 1 "R_1.5k_TH_500mW_350V_5%" H 3215 3315 40  0001 L CNN
-F 2 "main:R_TH" H 3200 3700 59  0001 C CNN
+F 2 "personal:R_TH" H 3200 3700 59  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/kamaya_RC.pdf" H 3200 3700 59  0001 C CNN
 F 4 "RC1/2152JB " H 3200 3400 59  0001 C CNN "MPN"
 F 5 "Kamaya" H 3200 3400 59  0001 C CNN "MF"
@@ -99,12 +99,12 @@ Wire Wire Line
 Wire Wire Line
 	2900 2300 3050 2300
 $Comp
-L main:Tube_6L6GC Q?
+L personal:Tube_6L6GC Q?
 U 1 1 5F4B6CC4
 P 3800 2250
 F 0 "Q?" H 3800 2641 50  0000 C CNN
 F 1 "Tube_6L6GC" H 3800 2550 50  0000 C CNN
-F 2 "main:Octal_Tube_Header" H 4040 2245 50  0001 C CNN
+F 2 "personal:Octal_Tube_Header" H 4040 2245 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/6l6gc.pdf" H 4040 2245 50  0001 C CNN
 F 4 "Electroharmonix" H 4400 1750 50  0001 C CNN "MF"
 F 5 "6L6GC" H 4400 1850 50  0001 C CNN "MPN"
@@ -112,12 +112,12 @@ F 5 "6L6GC" H 4400 1850 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main:Tube_6L6GC Q?
+L personal:Tube_6L6GC Q?
 U 1 1 5F4B7614
 P 3800 3450
 F 0 "Q?" H 3800 3749 50  0000 C CNN
 F 1 "Tube_6L6GC" H 3800 3840 50  0000 C CNN
-F 2 "main:Octal_Tube_Header" H 4040 3445 50  0001 C CNN
+F 2 "personal:Octal_Tube_Header" H 4040 3445 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/6l6gc.pdf" H 4040 3445 50  0001 C CNN
 F 4 "Electroharmonix" H 4400 2950 50  0001 C CNN "MF"
 F 5 "6L6GC" H 4400 3050 50  0001 C CNN "MPN"
@@ -125,12 +125,12 @@ F 5 "6L6GC" H 4400 3050 50  0001 C CNN "MPN"
 	1    0    0    1   
 $EndComp
 $Comp
-L main:Tube_6L6GC Q?
+L personal:Tube_6L6GC Q?
 U 2 1 5F4B8A19
 P 1100 5100
 F 0 "Q?" H 1168 5375 50  0000 C CNN
 F 1 "Tube_6L6GC" H 1168 5284 50  0000 C CNN
-F 2 "main:Octal_Tube_Header" H 1340 5095 50  0001 C CNN
+F 2 "personal:Octal_Tube_Header" H 1340 5095 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/6l6gc.pdf" H 1340 5095 50  0001 C CNN
 F 4 "Electroharmonix" H 1700 4600 50  0001 C CNN "MF"
 F 5 "6L6GC" H 1700 4700 50  0001 C CNN "MPN"
@@ -138,12 +138,12 @@ F 5 "6L6GC" H 1700 4700 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main:Tube_6L6GC Q?
+L personal:Tube_6L6GC Q?
 U 2 1 5F4B90AC
 P 1950 5100
 F 0 "Q?" H 2018 5375 50  0000 C CNN
 F 1 "Tube_6L6GC" H 2018 5284 50  0000 C CNN
-F 2 "main:Octal_Tube_Header" H 2190 5095 50  0001 C CNN
+F 2 "personal:Octal_Tube_Header" H 2190 5095 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/6l6gc.pdf" H 2190 5095 50  0001 C CNN
 F 4 "Electroharmonix" H 2550 4600 50  0001 C CNN "MF"
 F 5 "6L6GC" H 2550 4700 50  0001 C CNN "MPN"
@@ -155,12 +155,12 @@ NoConn ~ 1700 5150
 NoConn ~ 850  5050
 NoConn ~ 850  5150
 $Comp
-L main:R_1k_TH_3W_1kV_1% R?
+L personal:R_1k_TH_3W_1kV_1% R?
 U 1 1 5F4B03A8
 P 4400 2600
 F 0 "R?" V 4362 2655 40  0000 L CNN
 F 1 "R_1k_TH_3W_1kV_1%" H 4415 2515 40  0001 L CNN
-F 2 "main:R_TH_LONG" H 4400 2900 59  0001 C CNN
+F 2 "personal:R_TH_LONG" H 4400 2900 59  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/resistors_vishay_alsr_alvr.pdf" H 4400 2900 59  0001 C CNN
 F 4 "ALSR031K000FE12 " H 4400 2600 59  0001 C CNN "MPN"
 F 5 "Vishay" H 4400 2600 59  0001 C CNN "MF"
@@ -169,12 +169,12 @@ F 6 "1k" V 4438 2655 40  0000 L CNN "Resistance"
 	0    1    1    0   
 $EndComp
 $Comp
-L main:R_1k_TH_3W_1kV_1% R?
+L personal:R_1k_TH_3W_1kV_1% R?
 U 1 1 5F4B0140
 P 4400 3100
 F 0 "R?" V 4362 3155 40  0000 L CNN
 F 1 "R_1k_TH_3W_1kV_1%" H 4415 3015 40  0001 L CNN
-F 2 "main:R_TH_LONG" H 4400 3400 59  0001 C CNN
+F 2 "personal:R_TH_LONG" H 4400 3400 59  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/resistors_vishay_alsr_alvr.pdf" H 4400 3400 59  0001 C CNN
 F 4 "ALSR031K000FE12 " H 4400 3100 59  0001 C CNN "MPN"
 F 5 "Vishay" H 4400 3100 59  0001 C CNN "MF"
@@ -194,7 +194,7 @@ Text HLabel 4250 2850 0    50   Input ~ 0
 Wire Wire Line
 	3700 2500 3700 2800
 $Comp
-L main:GND #PWR?
+L personal:GND #PWR?
 U 1 1 5F4C5A03
 P 3550 2900
 F 0 "#PWR?" H 3550 2650 50  0001 C CNN
@@ -260,12 +260,12 @@ NoConn ~ 6500 1100
 NoConn ~ 6500 1200
 NoConn ~ 6500 1300
 $Comp
-L main:Conn_01x04_2.54mm_Male_Lock J?
+L personal:Conn_01x04_2.54mm_Male_Lock J?
 U 1 1 5FB1D459
 P 6300 1000
 F 0 "J?" H 6383 1123 50  0000 C CNN
 F 1 "Conn_01x04_2.54mm_Male_Lock" H 6383 1124 50  0001 C CNN
-F 2 "main:Conn_01x03_2.54mm_Male_Lock" H 6300 1000 50  0001 C CNN
+F 2 "personal:Conn_01x03_2.54mm_Male_Lock" H 6300 1000 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/22-23-2037.pdf" H 6300 1000 50  0001 C CNN
 F 4 "Molex" H 6300 1000 50  0001 C CNN "MF"
 F 5 "22-04-5048" H 6300 1000 50  0001 C CNN "MPN"
@@ -273,12 +273,12 @@ F 5 "22-04-5048" H 6300 1000 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L main:Conn_01x04_2.54mm_Male_Lock J?
+L personal:Conn_01x04_2.54mm_Male_Lock J?
 U 1 1 5FB1D9CE
 P 6800 1000
 F 0 "J?" H 6883 1123 50  0000 C CNN
 F 1 "Conn_01x04_2.54mm_Male_Lock" H 6883 1124 50  0001 C CNN
-F 2 "main:Conn_01x03_2.54mm_Male_Lock" H 6800 1000 50  0001 C CNN
+F 2 "personal:Conn_01x03_2.54mm_Male_Lock" H 6800 1000 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/22-23-2037.pdf" H 6800 1000 50  0001 C CNN
 F 4 "Molex" H 6800 1000 50  0001 C CNN "MF"
 F 5 "22-04-5048" H 6800 1000 50  0001 C CNN "MPN"
