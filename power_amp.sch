@@ -265,7 +265,7 @@ U 1 1 5FB1D459
 P 6300 1000
 F 0 "J?" H 6383 1123 50  0000 C CNN
 F 1 "Conn_01x04_2.54mm_Male_Lock" H 6383 1124 50  0001 C CNN
-F 2 "personal:Conn_01x03_2.54mm_Male_Lock" H 6300 1000 50  0001 C CNN
+F 2 "personal:Conn_01x04_2.54mm_Male_Lock" H 6300 1000 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/22-23-2037.pdf" H 6300 1000 50  0001 C CNN
 F 4 "Molex" H 6300 1000 50  0001 C CNN "MF"
 F 5 "22-04-5048" H 6300 1000 50  0001 C CNN "MPN"
@@ -278,7 +278,7 @@ U 1 1 5FB1D9CE
 P 6800 1000
 F 0 "J?" H 6883 1123 50  0000 C CNN
 F 1 "Conn_01x04_2.54mm_Male_Lock" H 6883 1124 50  0001 C CNN
-F 2 "personal:Conn_01x03_2.54mm_Male_Lock" H 6800 1000 50  0001 C CNN
+F 2 "personal:Conn_01x04_2.54mm_Male_Lock" H 6800 1000 50  0001 C CNN
 F 3 "/home/jpartain/Hardware/datasheets/22-23-2037.pdf" H 6800 1000 50  0001 C CNN
 F 4 "Molex" H 6800 1000 50  0001 C CNN "MF"
 F 5 "22-04-5048" H 6800 1000 50  0001 C CNN "MPN"
