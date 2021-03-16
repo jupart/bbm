@@ -380,4 +380,28 @@ Text Notes 1650 3850 0    79   ~ 16
 Offboard Wiring
 Text Notes 950  5500 0    79   ~ 16
 AC Inlet
+$Comp
+L personal:BOM_Item B?
+U 1 1 605183D5
+P 10200 7500
+F 0 "B?" H 10278 7546 50  0000 L CNN
+F 1 "Power Transformer" H 10278 7455 50  0000 L CNN
+F 2 "" H 10200 7500 50  0001 C CNN
+F 3 "" H 10200 7500 50  0001 C CNN
+F 4 "290D2X" H 10200 7500 50  0001 C CNN "mpn"
+	1    10200 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L personal:BOM_Item B?
+U 1 1 60518495
+P 10200 7300
+F 0 "B?" H 10278 7346 50  0000 L CNN
+F 1 "Output Transformer" H 10278 7255 50  0000 L CNN
+F 2 "" H 10200 7300 50  0001 C CNN
+F 3 "" H 10200 7300 50  0001 C CNN
+F 4 "1760L" H 10200 7300 50  0001 C CNN "mpn"
+	1    10200 7300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
