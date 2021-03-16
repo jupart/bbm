@@ -16,6 +16,8 @@ Hardware for a guitar amp based off a classic that was all about the bass, man!
 - headers from PCB to chassis-mounted components
 - carbon comp signal resistors
 - metal-film power resistors
+- front and rear panels made of PCB ala synth modules
+  - symbols instead of labels ala Orange (treble clef, bass clef, etc.)
 
 ## Tonestack Curves
 
